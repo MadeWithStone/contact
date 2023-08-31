@@ -1,0 +1,109 @@
+body.dark-mode {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+header {
+  text-align: center;
+  background-color: #1f1f1f;
+  padding: 1em;
+  border-radius: 8px;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+header p {
+  margin: 0.5em 0 0;
+  color: #999999;
+  font-size: 0.9em;
+}
+
+main {
+  background-color: #1f1f1f;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.intro p {
+  font-size: 0.9em;
+}
+
+.social-media h2,
+.contact-card h2 {
+  font-size: 1.2em;
+}
+
+.social-media ul {
+  list-style: none;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+/* Updated styling for social media links */
+.social-media ul li {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  padding: 0.6em 1.2em;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.9em;
+  width: 100%;
+  text-align: center;
+}
+
+.social-media a.instagram {
+  background-color: #e1306c;
+}
+
+.social-media a.instagram:hover {
+  background-color: #c11a5a;
+}
+
+.social-media a.linkedin {
+  background-color: #0077b5;
+}
+
+.social-media a.linkedin:hover {
+  background-color: #005885;
+}
+
+.social-media a.twitter {
+  background-color: #1da1f2;
+}
+
+.social-media a.twitter:hover {
+  background-color: #1790d2;
+}
+
+/* Updated styling for contact card */
+.social-media a.contact-card {
+  background-color: #34c759;
+  color: #fff;
+  padding: 0.6em 1.2em;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.contact-card a:hover {
+  background-color: #005885;
+}
